@@ -1,7 +1,7 @@
 public class SumOfPositiveNumbers {
     public static void main(String[] args) {
         int array[]={-2,-10,2,3,4,6,3,1,3,3,6,7,-99};
-        int suma=0;
+        double suma=0;
         for (int i:array) {
             if(i>0){
                 suma=suma+i;
